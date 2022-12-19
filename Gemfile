@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll-watch'
-gem 'jekyll-paginate'
-gem 'kramdown'
-gem 'wdm'
-gem 'github-pages'
+gem 'jekyll', '~> 3.0'
+gem 'redcarpet'
+gem 'pygments.rb'

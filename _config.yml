@@ -1,28 +1,52 @@
-# Site settings
-title: Hieu Xuan Leu
-email: hieulx.swe@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+# user variables, change this to make custom site.
 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+name: Lemma
+desc: Yet another simple theme for Jekyll.
+author:
+  name: neizod
+  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
+  profile: |
+    Just another ordinary grad student in computer engineering.
+    I'm interest in programming language, algorithm, and mathematics.
 
-exclude: ['node_modules', 'Gruntfile.js', 'package.json']
+    I live in Chiang Mai or Bangkok, Thailand.
+    And you may found me around BarCamp event ;D
+  socials:
+    facebook:
+    twitter: //twitter.com/neizod
+    google-plus:
+    github: //github.com/neizod
+    stack-overflow: //stackoverflow.com/users/889578/neizod
+    instagram:
+    pinterest:
+    steam: //steamcommunity.com/id/neizod/
+license: MIT License
 
-highlighter: rouge
 
-gems:
-   - jekyll-paginate
+# theme variables, change this to make site looks best.
+baseurl: 
+paginate: 2
 
-# YB Settings
-excerpt_separator: <!-- more -->
-paginate: 4
-comments: false
+
+# system variables, do not change unless you knew what's it does.
+paginate_path: page/:num
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,52 +1,83 @@
-# user variables, change this to make custom site.
+# Site settings
+site: Ephesus
+title: Ephesus - Minimalist Jekyll Theme
+keywords: ephesus, blog
+description: >-
+  Ephesus - Minimalist Jekyll Theme
+lang: en-US
+timezone:  Europe/Istanbul
+repo: https://github.com/onepase/Ephesus # site repo [optional]
+google_verify:      XXX # Put your Google Verification here
+google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
+discus-identifier:  XXX
 
-name: Hieu Xuan Leu
-desc: Software Developer
+# Author settings
 author:
-  name: hieuxuanleu
-  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
-  profile: |
-    Just another ordinary grad student in computer engineering.
-    I'm interest in programming language, algorithm, and mathematics.
-
-    I live in Chiang Mai or Bangkok, Thailand.
-    And you may found me around BarCamp event ;D
-  socials:
-    facebook:
-    twitter: //twitter.com/neizod
-    google-plus:
-    github: //github.com/neizod
-    stack-overflow: //stackoverflow.com/users/889578/neizod
-    instagram:
-    pinterest:
-    steam: //steamcommunity.com/id/neizod/
-license: MIT License
+  name: Hakan Torun
+  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
+  picture: assets/images/profile.jpg 
+  github: onepase # github username
+  twitter: onepase # twitter username
+  facebook: onepase # facebook username
+  instagram: onepase # instagram username
+  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
+  linkedin: hakantorun # linkedin username
+  email: your-email@email.com # email adress
 
 
-# theme variables, change this to make site looks best.
-baseurl: 
-paginate: 2
+# URL settings
+url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 
-# system variables, do not change unless you knew what's it does.
-paginate_path: page/:num
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
 defaults:
-  - scope:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
       path: ""
       type: "pages"
     values:
-      layout: "default"
-  - scope:
+      layout: "page"
+  -
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
-sass:
-  sass_dir: _sass
-  style: compressed
+relative_links:
+  enabled:     true
+  collections: false

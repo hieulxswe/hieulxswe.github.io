@@ -1,5 +1,5 @@
 ---
-title: "Cách đạt IELTS 9 chấm, tiếng có tiếng không của một Dev nghèo đang cạp đất ở Úc"
+title: "Một số cách học tiếng Anh cho người mất gốc"
 date: 2023-01-13T00:00:00+00:00
 author: Hieu X. Leu
 layout: post

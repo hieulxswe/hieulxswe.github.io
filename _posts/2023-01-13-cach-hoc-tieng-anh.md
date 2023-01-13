@@ -6,7 +6,7 @@ layout: post
 permalink: /cach-hoc-tieng-anh/
 categories: English
 tags: [english, dev, developer]
-image: assets/images/profile.jpeg
+image: /assets/images/profile.jpeg
 ---
 Xin chào 500 anh/chị/em xã hội. Như mọi người đã biết, tiếng Anh là ngôn ngữ chính thức của hơn 53 quốc gia & vùng lãnh thổ. Đặc biệt, nếu mọi người có ý định đi du học hoặc làm việc tại các công ty đa quốc gia thì tiếng Anh là một yêu cầu hàng đầu không thể bỏ qua.
 

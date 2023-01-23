@@ -20,7 +20,7 @@ title                    : "Hieu X. Leu | Software Developer"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hieu X. Leu"
-description              : "Software Developer Blogs."
+description              : "Software Developer."
 url                      : https://hieuleuxuan.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Hieu X. Leu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/hieu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer."
   location         : "Melbourne, Australia"
   email            : "hieulx.swe@gmail.com"

@@ -54,9 +54,6 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
-    output: true
-    permalink: /projects/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -85,11 +82,6 @@ buymeacoffee:
 
 ### Defaults for collections ###
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
   - scope:                                              # For Documentation Only
       path: ""                                          # For Documentation Only
       type: "elements"                                  # For Documentation Only

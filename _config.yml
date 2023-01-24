@@ -27,22 +27,22 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Hieu Xuan Leu
   image             : https://imgur.com/Qnz3iQl
-  behance           : your_username
+  # behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : hieulx.swe@gmail.com
+  facebook          : hieulxdev
+  github            : hieuleuxuan
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : hieudev
+  # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : hieudev91vn
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username

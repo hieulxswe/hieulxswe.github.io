@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Hieu Xuan Leu
+title               : Hieu X. Leu
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -25,8 +25,8 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  name              : Hieu Xuan Leu
+  image             : https://drive.google.com/file/d/1LYeQSXPFd_--dXHJFzY6a-Ba1hoLlL3_/view?usp=share_link
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com

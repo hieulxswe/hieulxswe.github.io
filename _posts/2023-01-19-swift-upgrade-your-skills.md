@@ -4,6 +4,7 @@ tags: [swift, swift ios, ios developer, swift tips, swift tips & tricks]
 style: 
 color: 
 description: Some Tips & Tricks in Swift Programming 2023
+comments: true
 ---
 
 ## 1. Shorter If…Else Statements with Ternary Operators

@@ -1,6 +1,6 @@
 ---
 title: Day in the life of a Sofware Engineer
-tags: [software engineer, day in the life, swe]
+tags: [software engineer, day in the life, swe, engineer]
 style: 
 color: 
 description: 9am come in, check emails, arrange short, medium and long-term to-do lists, organize meetings

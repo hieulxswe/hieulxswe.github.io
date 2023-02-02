@@ -4,6 +4,7 @@ tags: [software engineer, day in the life, swe, engineer]
 style: 
 color: 
 description: 9am come in, check emails, arrange short, medium and long-term to-do lists, organize meetings
+image: https://scontent.fmel14-2.fna.fbcdn.net/v/t39.30808-6/323410537_882167376563078_1040976845322847057_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=9Tvn96eaw-EAX8IQLsi&_nc_ht=scontent.fmel14-2.fna&oh=00_AfDre_oINYQIEg6bE6cPhpNYsIEJsCDTT9zTjXELV6r_Dg&oe=63E0ECEC
 comments: true
 ---
 

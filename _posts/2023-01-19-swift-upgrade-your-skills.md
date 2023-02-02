@@ -4,6 +4,7 @@ tags: [swift, swift ios, ios developer, swift tips, swift tips & tricks]
 style: 
 color: 
 description: Some Tips & Tricks in Swift Programming 2023
+image: https://miro.medium.com/max/1200/0*6VlZmZcovSL50GZe.jpg
 comments: true
 ---
 

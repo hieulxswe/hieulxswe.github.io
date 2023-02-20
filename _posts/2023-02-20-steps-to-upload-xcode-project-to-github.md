@@ -1,5 +1,5 @@
 ---
-title: Steps to Upload Xcode project to GitHub
+title: Steps Upload Xcode Project to GitHub
 tags: [ios, swift, github, steps upload project to github, upload source code to github]
 style: 
 color: 

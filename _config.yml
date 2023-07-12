@@ -1,33 +1,33 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
+site: Hieu X. Leu
+title: Software Developer
+keywords: developer, software engineer, software developer, ios developer, web developer, mobile developer
 description: >-
-  Ephesus - Minimalist Jekyll Theme
+  Software Developer
 lang: en-US
-timezone:  Europe/Istanbul
-repo: https://github.com/onepase/Ephesus # site repo [optional]
+timezone:  Australia/Melbourne
+repo:  # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
 discus-identifier:  XXX
 
 # Author settings
 author:
-  name: Hakan Torun
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
-  picture: assets/images/profile.jpg 
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  name: Hieu X. Leu
+  bio: Software Developer @beatrixsoftware <br> Web Developer @emkglobal
+  picture: assets/images/hieu.jpeg 
+  github: hieuleuxuan # github username
+  twitter: hieudev91vn # twitter username
+  facebook: hieulxdev # facebook username
+  instagram: _hieuleuxuan # instagram username
+  youtube: https://www.youtube.com/@hieuswe # youtube username
+  linkedin: hieudev # linkedin username
+  email: hieulx.swe@gmail.com # email adress
 
 
 # URL settings
-url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
-permalink: pretty
+url: "https://hieuleuxuan.github.io/" # Domain Name of host. [username].github.io for github pages
+permalink: 
 
 markdown: kramdown
 kramdown:

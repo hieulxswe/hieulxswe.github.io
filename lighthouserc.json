@@ -1,0 +1,27 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./_site",
+      "url": [
+        "http://localhost/index.html",
+        "http://localhost/about/index.html",
+        "http://localhost/2016/01/01/test-post/index.html"
+      ]
+    }, 
+    "assert": {
+      "preset": "lighthouse:no-pwa",
+      "assertions": {
+        "csp-xss": "off",
+        "unused-javascript": "off",
+        "unused-css-rules": "off", 
+        "robots-txt": "off",
+        "color-contrast": "warn",
+        "offscreen-images": "warn",
+        "uses-responsive-images": "warn"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

@@ -1,40 +1,39 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang }}" xml:lang="{{ site.lang }}">
-  <head>
-    {% include_cached meta.html %}
-    {% feed_meta %}
-    {% seo %}
-    {% if page.reload %}
-    <meta name="turbo-visit-control" content="reload">
-    {% endif %}
-    {% if layout.hero %}
-    <link rel="preload" href="/assets/img/header.jpg" as="image" />
-    {% endif %}
-  </head>
-  <body class="{{ page.layout }} post{{ page.id | slugify | prepend: "-"}} mt-2">
-    <div class="container">
-
-      {% if layout.hero %}
-        <div class="hero-unit rounded-top position-relative">&nbsp;</div>
-      {% endif %}
-
-      {% include nav.html %}
-
-      <div class="content" id="content" role="main">
-        {{ content }}
-      </div><!-- /.content -->
-
-      {% include_cached footer.html %}
-    </div><!--/.container-->
-
-    {% if site.twitter.property_id %}
-    <script src="https://platform.twitter.com/oct.js" type="text/javascript"></script>
-    <script type="text/javascript">twttr.conversion.trackPid('{{ site.twitter.property_id }}', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
-    {% endif %}
-
-    {% if site.cloudflare.id %}
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{ site.cloudflare.id }}"}'></script>
-    {% endif %}
-  </body>
-</html>
-<!-- Proudly Powered by GitHub Pages | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
+{% include header.html %}
+<div class="container">
+	<div class="profile">
+		<a href="{{ site.url }}"><img src="{{site.author.picture}}" class="profile-image"></a>
+		<div class="profile-about">
+			<h2 style="margin-bottom: 0; font-weight: 700;">{{site.author.name}}</h2>
+			{% if site.author.facebook %}
+				<a href="https://facebook.com/{{site.author.facebook}}" target="_blank"><img src="assets/images/icon/facebook.svg" class="social-icon"></a>
+			{% endif %}
+			{% if site.author.twitter %}
+				<a href="https://twitter.com/{{site.author.twitter}}" target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon"></a>
+			{% endif %}
+			{% if site.author.instagram %}
+				<a href="https://instagram.com/{{site.author.instagram}}" target="_blank"><img src="assets/images/icon/instagram.svg" class="social-icon"></a>
+			{% endif %}
+			{% if site.author.youtube %}
+				<a href="{{site.author.youtube}}" target="_blank"><img src="assets/images/icon/youtube.svg" class="social-icon"></a>
+			{% endif %}
+			{% if site.author.github %}
+				<a href="https://github.com/{{site.author.github}}" target="_blank"><img src="assets/images/icon/github.svg" class="social-icon"></a>
+			{% endif %}
+			{% if site.author.linkedin %}
+				<a href="https://linkedin.com/in/{{site.author.linkedin}}" target="_blank"><img src="assets/images/icon/linkedin.svg" class="social-icon"></a>
+			{% endif %}
+			<a href="about"><img src="assets/images/icon/me.svg" class="social-icon"></a>
+			<br>
+			{{ site.author.bio }}
+			<br>
+			<div class="mode" id="mode-switcher" onclick="toggleNightMode();">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	{{ content }}
+	<div class="footer">
+		<span>Made with <font color="red">♥</font> on Earth, a minimalist Jekyll Theme by <a href="https://hakan.io"><b>Hakan</b></a></span>
+	</div>
+</div>
+{% include footer.html %}

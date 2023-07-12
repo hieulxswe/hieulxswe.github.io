@@ -1,80 +1,62 @@
-# Retlab
+# Ephesus
 
-[![CI](https://github.com/benbalter/retlab/actions/workflows/ci.yml/badge.svg)](https://github.com/benbalter/retlab/actions/workflows/ci.yml)
+Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
 
-![Screenshot of Retlab](screenshot.png)
+Author [Hakan Torun](https://hakan.io).
 
-A minimalist Jekyll theme for your personal site
+- **Demo:** https://pardin.us/ephesus/
+
+### Features
+
+- [x] Tiny CSS & No Dependency
+- [x] Responsive Design
+- [x] Dark/Light Theme
+- [x] Custom 404 Page
+- [x] About Page
+- [x] Tags Page
+- [x] Code Highlighter
+- [x] Social Share
+- [x] Atom & Json feeds
+- [x] Robots.txt
+- [x] Sitemap
+- [x] Next & Previous Post
+- [x] Pagination
+- [x] Disqus
+- [x] Mathjax Support
+- [x] Google Analytics
+
+## Screenshots
+
+#### Light
+![light-theme](https://github.com/onepase/Ephesus/blob/master/light.png)
+
+#### Dark
+![dark-theme](https://github.com/onepase/Ephesus/blob/master/dark.png)
 
 ## Installation
 
-1. Add this line to your site's configuration:
+Run local server:
 
-   ```yaml
-   remote_theme: benbalter/retlab
-   ```
-
-2. Save a header image to `/assets/img/header.jpg`. It should be 400px by 1140px.
-
-## Configuration
-
-You’ll want to customize and add the following configurations to your site’s `_config.yml` file:
-
-```yml
-title: Ben Balter
-description: Attorney, open source developer, product manager
-
-lang: en-US
-
-# Pages to include in header navigation
-nav_pages:
-  - index.html
-  - talks.md
-  - press.md
-  - about.md
-  - contact.md
-
-# Pages to include in footer navigation
-footer_pages:
-  - books.md
-  - fine-print.md
-
-# Disqus login information, for comments
-disqus:
-  shortname: DISQUS_USERNAME
-
-# Links to include on the contact page
-contact_links:
-  - name: Twitter
-    url: https://twitter.com/BenBalter
-    icon: twitter
-  - name: Facebook
-    url: https://facebook.com/BenBalter
-    icon: facebook
-
-# Front matter defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      comments: true
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-avatar
-  - jekyll-github-metadata
-  - jekyll-feed
+```bash
+$ git clone https://github.com/onepase/Ephesus.git
+$ cd Ephesus
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
 ```
 
-You may also want to see [Jekyll SEO Tag’s configuration](https://github.com/jekyll/jekyll-seo-tag).
+Navigate to `127.0.0.1:4000`.
+
+Tags are created automatically under the /tags page.
+
+To use a math formula in a post, use the mathjax:true tag in the post.
+
+## Contributing
+
+Feel free to open a pull request for contributing.
+
+Please feel free to contribute. Do not hesitate to open a pull request and fix it, please read [contributing](./CONTRIBUTING.md) before PR.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE.md).

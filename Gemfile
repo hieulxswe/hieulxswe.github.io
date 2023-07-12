@@ -1,11 +1,12 @@
-# frozen_string_literal: true
+source "https://rubygems.org"
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
+gem 'jekyll-relative-links'
+gem "tzinfo-data", "~> 1.2021"
 
-source 'https://rubygems.org'
-gemspec
+# windows specific
+gem 'wdm', '>= 0.1.0'
 
-gem 'html-proofer', '~> 4.0'
-gem 'rubocop', '~> 1.7'
-gem 'rubocop-github'
-gem 'rubocop-performance', '~> 1.13'
-gem 'sass', '~> 3.4'
-gem 'webrick', '~> 1.7'
+# update ruby version
+gem 'webrick'

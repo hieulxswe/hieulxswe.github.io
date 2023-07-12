@@ -1,54 +1,35 @@
 ---
 layout: default
 ---
-
-<div class="row">
-  <div class="col-md-10 offset-md-1">
-      <article id="post{{ page.id | replace:"/","-" }}" class="post post{{ page.id | replace:"/","-" }}">
-
-      <h1 class="display-4 text-primary">{{ page.title | smartify }}</h1>
-
-      {% if page.description %}
-      <div class="lead">
-        {% capture tldr %}
-<strong>
-  <abbr title="&quot;Too Long; Didn't Read&quot; &mdash; Internet shorthand for &quot;a brief summary of longer writing&quot;" class="initialism" data-bs-toggle="tooltip" data-bs-placement="right">TL;DR</abbr>: 
-</strong>
-        {% endcapture %}
-
-        {{ page.description | prepend: tldr | markdownify | smartify }}
-      </div>
-      {% endif %}
-
-      {% if page.archived %}
-        <div class="alert alert-warning" role="alert">
-          <strong>❗ Heads up!</strong> This post is archived and here for historical purposes. It may no longer be accurate or reflect my views. Proceed at your own risk.
-        </div>
-      {% endif %}
-
-      <div class="entrybody">
-        {{ content }}
-      </div>
-
-      <div class="mb-2 text-muted small">
-        Originally published {{ page.date | date: '%B %-d, %Y' }} | <a class="link-secondary" href="{{ site.github.repository_url }}/commits/{{ site.github.source.branch }}/{{ page.path }}" target="_blank" rel="noopener">View revision history</a>
-      </div>
-
-      {% if site.data.related_posts[page.relative_path] %}
-        {% include related_posts.html %}
-      {% endif %}
-
-      <div class="row border-top pt-3">
-        <div class="col">
-          {% include_cached mini-bio.html %}
-        </div>
-        <div class="col-lg-2 text-center pb-3">
-          <p>
-            <small>This page is open source. Please {% github_edit_link "help improve it" %}.</small>
-          </p>
-          <a class="btn btn-outline-primary btn-lg btn-sm" href="{% github_edit_link %}" title="Help improve article {{ page.path }}">Edit</a>
-        </div>
-      </div>      
-    </article>
-  </div>
+{% if page.mathjax %}
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endif %}
+<div class="post-header">
+	<div class="post-date">{{ page.date | date: "%d.%m.%Y" }}</div>
+	<div class="post-share">
+		Share:&nbsp; 
+		<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/facebook.svg" class="social-icon"></a>
+		<a href="https://twitter.com/intent/tweet?source=tweetbutton&amp;original_referer={{site.url}}/{{page.slug}}&amp;text={{page.title}} - {{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/twitter.svg" class="social-icon"></a>
+		<a href="https://api.whatsapp.com/send?text={{site.url}}/{{page.slug}}" target="_blank"><img src="assets/images/icon/whatsapp.svg" class="social-icon"></a>
+	</div>
 </div>
+
+<div class="blog-post-content">
+	<h1>{{page.title}}</h1>
+	{{ content }}
+</div>
+<div class="tags-container">
+	{% for tag in page.tags %}
+		<a href="{{ site.url }}/tags/#{{tag | cgi_escape}}" class="post-tag">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+	{% endfor %}
+</div>
+<div class="navigation">
+	{% if page.previous %}
+		<a class="prev" href="{{ page.previous | relative_url }}">< {{ page.previous.title }}</a>
+	{% endif %} {% if page.next %}
+	<a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} ></a>
+{% endif %}
+</div>
+{% include disqus.html %}

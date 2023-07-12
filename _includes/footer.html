@@ -1,18 +1,20 @@
-<nav>
-  <ul class="nav justify-content-end border-top px-2 py-3">
-    {% for path in site.footer_pages %}
-      {% assign footer_page=site.pages | where:"path",path | first %}
-      <li class="nav-item">
-        <a href="{{ footer_page.url | relative_url }}" class="nav-link link-secondary">
-          {{ footer_page.title }}
-        </a>
-      </li>
-    {% endfor %}
+	<script src="assets/js/ephesus.js"></script>
+	<script type="text/javascript">
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			document.getElementById('mode-switcher').classList.add('active');
+		}
+	</script>
 
-    <li class="nav-item">
-      <a href="{{ "/feed.xml" | relative_url }}" aria-label="Atom Feed" class="nav-link">
-        <i class="fas fa-rss" title="Atom Feed"></i>
-      </a>
-    </li>
-  </ul>
-</nav>
+	{% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{site.google_analytics}}');
+    </script>
+	{% endif %}
+</body>
+</html>

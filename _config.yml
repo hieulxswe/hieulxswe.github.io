@@ -1,6 +1,6 @@
 title: Hieu Xuan Leu
 url: "https://hieuleuxuan.github.io"
-baseurl: "/researcher"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"

@@ -1,83 +1,24 @@
-# Site settings
-site: Hieu Xuan Leu
-title: Software Developer
-keywords: swe, softwaredeveloper, iosdeveloper, iosdev, backenddeveloper, webdeveloper
-description: >-
-  Software Developer
-lang: en-US
-timezone:  Europe/Istanbul
-repo: https://github.com/onepase/Ephesus # site repo [optional]
-google_verify:      XXX # Put your Google Verification here
-google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
-discus-identifier:  XXX
-
-# Author settings
-author:
-  name: Hakan Torun
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
-  picture: assets/images/profile.jpg 
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
-
-
-# URL settings
-url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
-permalink: pretty
+title: Hieu Xuan Leu
+url: "https://hieuleuxuan.github.io"
+baseurl: "/researcher"
 
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+#ins_logo: "./bits-logo.png"
 
+tracking_id: #
 
-exclude:
-  - .jekyll-cache
-  - .obsidian
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - CONTRIBUTING.md
+footer: yes
+footer_url: "https://github.com/ankitsultana"
+footer_text: "Page design by Ankit Sultana"
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-relative-links
-paginate: 20
-paginate_path: "/page/:num"
+sass:
+    style: compressed
+    sass_dir: _sass
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:slug
-  
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-relative_links:
-  enabled:     true
-  collections: false
+nav:
+ - name: "About"
+   link: "/researcher/"
+ - name: "Resume"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"

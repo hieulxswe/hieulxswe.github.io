@@ -1,62 +1,60 @@
-# Ephesus
+# Researcher
 
-Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
+### [Demo Website](http://ankitsultana.com/researcher)
 
-Author [Hakan Torun](https://hakan.io).
+A clean, single column, monospace resume template built for jekyll
 
-- **Demo:** https://pardin.us/ephesus/
+### Installation
 
-### Features
+Simply fork the repository and edit away.
 
-- [x] Tiny CSS & No Dependency
-- [x] Responsive Design
-- [x] Dark/Light Theme
-- [x] Custom 404 Page
-- [x] About Page
-- [x] Tags Page
-- [x] Code Highlighter
-- [x] Social Share
-- [x] Atom & Json feeds
-- [x] Robots.txt
-- [x] Sitemap
-- [x] Next & Previous Post
-- [x] Pagination
-- [x] Disqus
-- [x] Mathjax Support
-- [x] Google Analytics
+#### Installation via remote themes
 
-## Screenshots
+* Just setting `remote_theme: ankitsultana/researcher@gem` in `_config.yml` should work. Although in that case, I am not sure how
+you would build your site locally for testing. If you know how, open up an issue and let me know.
+* For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
 
-#### Light
-![light-theme](https://github.com/onepase/Ephesus/blob/master/light.png)
+### Customization
 
-#### Dark
-![dark-theme](https://github.com/onepase/Ephesus/blob/master/dark.png)
+* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
 
-## Installation
+* You can of course remove `contact.md` if you don't want it
 
-Run local server:
+* To set the heading, edit the `title` variable in `_config.yml`
 
-```bash
-$ git clone https://github.com/onepase/Ephesus.git
-$ cd Ephesus
-$ bundle install
-$ bundle exec jekyll build
-$ bundle exec jekyll serve
+* To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
+
+```
+nav:
+ - name: "About"
+   link: "/researcher/"
+ - name: "Resume"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"
 ```
 
-Navigate to `127.0.0.1:4000`.
+* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
 
-Tags are created automatically under the /tags page.
+* You can setup google analytics, by setting `tracking_id` in `_config.yml`
 
-To use a math formula in a post, use the mathjax:true tag in the post.
+* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
 
-## Contributing
+```html
+<img class="profile-picture" src="sherlock.jpg">
+```
 
-Feel free to open a pull request for contributing.
+* You can remove/customize the footer as you like by setting the
+appropriate variables in `_config.yml`
 
-Please feel free to contribute. Do not hesitate to open a pull request and fix it, please read [contributing](./CONTRIBUTING.md) before PR.
+* (New in v1.2.0) You can add institute logo at the top, by setting `ins_logo` in `_config.yml`. If you want
+to adjust the logo's size, try setting `max-height` in `#ins-logo` in file `./_sass/_style.scss` to the desired
+value
 
-## License
+![Institute Logo Image Sample](https://github.com/ankitsultana/assets/raw/master/ins-logo-sample.png)
 
-This project is open source and available under the [MIT License](LICENSE.md).
+**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+
+### License
+
+[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)

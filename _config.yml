@@ -1,9 +1,9 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
+site: Hieu Xuan Leu
+title: Software Developer
+keywords: swe, softwaredeveloper, iosdeveloper, iosdev, backenddeveloper, webdeveloper
 description: >-
-  Ephesus - Minimalist Jekyll Theme
+  Software Developer
 lang: en-US
 timezone:  Europe/Istanbul
 repo: https://github.com/onepase/Ephesus # site repo [optional]

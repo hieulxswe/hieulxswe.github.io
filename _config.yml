@@ -18,6 +18,8 @@ sass:
 nav:
  - name: "About"
    link: ""
+- name: "Posts"
+   link: "/_layouts/post.html"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"

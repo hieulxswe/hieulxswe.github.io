@@ -32,7 +32,7 @@
 		</div>
 		<div class="profile-about">
 			{% if site.categories %}
-			<a href="{{ site.url }}/categories/">Test 1 |</a>
+			<a href="{{ site.url }}/categories/{{ categories | first | slugify }}/">All categories |</a>
 			{% endif %}
 			<a href="about"> Test |</a>
 			<a href="about"> Test</a>

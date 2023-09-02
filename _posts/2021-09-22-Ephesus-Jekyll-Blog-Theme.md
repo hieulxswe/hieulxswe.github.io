@@ -4,7 +4,7 @@ date: 2021-09-22T00:00:00+00:00
 author: Hakan Torun
 layout: post
 permalink: /ephesus-jekyll-blog-theme/
-categories: Genel
+categories: [test]
 tags: [ephesus, jekyll]
 ---
 Lorem markdownum nimiumque inutile ulterius tum fluctus arbore aethere in

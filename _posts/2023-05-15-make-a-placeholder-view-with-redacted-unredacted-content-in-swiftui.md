@@ -10,7 +10,7 @@ tags: [swiftui, ios]
 
 ![alt](http://hieulxswe.com/wp-content/uploads/2023/05/redacted.png)
 
-```swift
+{% highlight swift %}
 
 import SwiftUI
 
@@ -62,7 +62,7 @@ struct ContentView: View {
     }
 }
 
-```
+{% endhighlight %}
 
 In this example, I creating a `PlaceholderView` that contains a gray rectangle as a placeholder for an image, a title, and a description. I using the `.redacted(reason:)` modifier on each of these views to redact the content and display a placeholder instead.
 

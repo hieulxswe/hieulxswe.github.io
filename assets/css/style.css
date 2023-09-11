@@ -150,8 +150,8 @@ body{
   padding: 5px 10px;
   margin-bottom: 20px;
 }
-.profile-image-container{width: 40%;}
-.profile-image{width: 200px; height: 200px; border-radius: 50%; transition: transform .2s;}
+.profile-image-container{width: 50%;}
+.profile-image{width: 128px; height: 128px; border-radius: 50%; transition: transform .2s;}
 .profile-image:hover{transform: scale(1.05);}
 .profile-about{width:60%; text-align: right;}
 

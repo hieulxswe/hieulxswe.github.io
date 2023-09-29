@@ -1,9 +1,9 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
+site: Hieu Xuan Leu
+title: Software Engineering
 keywords: ephesus, blog
 description: >-
-  Ephesus - Minimalist Jekyll Theme
+  Software Engineering
 lang: en-US
 timezone:  Europe/Istanbul
 repo: https://github.com/onepase/Ephesus # site repo [optional]
@@ -13,21 +13,21 @@ discus-identifier:  XXX
 
 # Author settings
 author:
-  name: Hakan Torun
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
+  name: Hieu Xuan Leu
+  bio: Software Developer @Sydney <br> Founder @beatrixsoftware <br> Open Source /#emk-tech
   picture: assets/images/profile.jpg 
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  github: hieulxswe # github username
+  twitter:  # twitter username
+  facebook:  # facebook username
+  instagram:  # instagram username
+  youtube:  # youtube username
+  linkedin:  # linkedin username
+  email: hieulx.swe@gmail.com # email adress
 
 
 # URL settings
-url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
-permalink: pretty
+url: "https://hieulxswe.github.io" # Domain Name of host. [username].github.io for github pages
+permalink: 
 
 markdown: kramdown
 kramdown:

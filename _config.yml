@@ -5,7 +5,7 @@ keywords: ephesus, blog
 description: >-
   Software Engineer
 lang: en-US
-timezone:  Europe/Istanbul
+timezone:  Australia/Sydney
 repo: https://github.com/onepase/Ephesus # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
@@ -14,8 +14,8 @@ discus-identifier:  XXX
 # Author settings
 author:
   name: Hieu Xuan Leu
-  bio: Software Developer @Sydney <br> Founder @beatrixsoftware <br> Open Source /#emk-tech
-  picture: assets/images/profile.jpg 
+  bio: Software Engineer @Sydney
+  picture: assets/images/hieu.jpeg 
   github: hieulxswe # github username
   twitter:  # twitter username
   facebook:  # facebook username

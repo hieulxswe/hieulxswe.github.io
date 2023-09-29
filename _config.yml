@@ -1,9 +1,9 @@
 # Site settings
 site: Hieu Xuan Leu
-title: Software Engineering
+title: Software Engineer
 keywords: ephesus, blog
 description: >-
-  Software Engineering
+  Software Engineer
 lang: en-US
 timezone:  Europe/Istanbul
 repo: https://github.com/onepase/Ephesus # site repo [optional]

@@ -1,6 +1,6 @@
 ---
 title: "Long Weekend: Cafe & tối ưu hệ thống P.1"
-date: 2023-09-19T00:00:00+00:00
+date: 2023-09-30T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post
 permalink: /long-weekend-cafe-toi-uu-he-thong-p-1/

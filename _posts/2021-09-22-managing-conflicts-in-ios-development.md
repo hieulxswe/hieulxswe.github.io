@@ -1,6 +1,6 @@
 ---
 title: "Managing Conflicts in iOS Development"
-date: 2023-09-19T00:00:00+00:00
+date: 2023-08-19T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post
 permalink: /managing-conflicts-in-ios-development/

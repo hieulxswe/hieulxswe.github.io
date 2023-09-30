@@ -12,10 +12,6 @@
     	<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     	<meta content="{{ site.url }}/about/" property="article:author">
   		{% endif %}
-
-		  {% if page.thumbnail %}
-		  <img src="{{ page.thumbnail | absolute_url }}" alt="Thumbnail Image" />
-		  {% endif %}
 		<meta property="og:site_name" content="{{site.title}}">
 		<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
 		<meta property="og:url" content="{{ site.url }}{{page.url}}"/>

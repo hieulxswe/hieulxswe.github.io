@@ -4,6 +4,7 @@ date: 2023-09-30T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post
 permalink: /long-weekend-cafe-toi-uu-he-thong-p-1/
+thumbnail: /assets/images/toiuuhethong.png
 categories: backend
 tags: [backend, optimzesystem]
 ---

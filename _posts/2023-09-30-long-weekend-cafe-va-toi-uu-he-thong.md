@@ -10,17 +10,17 @@ tags: [backend, optimzesystem]
 
 Sydney, 30 Sep 2023
 
-Xin chào mọi người, mình là Hiếu (aka. Brian) – hiện tại đang sinh sống – học tập & làm việc tại Sydney. Nếu đây là lần đầu bạn ghé thăm blog, hãy lựa chọn tab “Home” để có thể xem những bài viết/chuyên mục mà mình đã chia sẻ trước đây. Và đừng quên “Add blog to your favorites” để có thể cập nhật những bài viết mới nhất từ một người “Xa nhà, gần máy tính” nhé. Cảm ơn các bạn!
+Xin chào mọi người, mình là **Hiếu** (aka. **Brian**) – hiện tại đang sinh sống – học tập & làm việc tại **Sydney**. Nếu đây là lần đầu bạn ghé thăm blog, hãy lựa chọn tab **Home** để có thể xem những bài viết/chuyên mục mà mình đã chia sẻ trước đây. Và đừng quên **Add blog to your favorites** để có thể cập nhật những bài viết mới nhất từ một người **Xa nhà, gần máy tính** nhé. Cảm ơn các bạn!
 
-Hôm nay là một ngày cuối tuần đẹp trời. Mình dậy từ 5am “hít” khí trời, vệ sinh cá nhân, ăn sáng. Sau đó sẽ “lên đường” tới thư viện để học & làm việc (Từ khi sang Úc, mình có thói quen là khi rảnh sẽ lên thư viện ở các Suburb khác nhau). Nay mình ngồi ở Five Dock Library (một thư viện mà mình yêu thích 😊).
+Hôm nay là một ngày cuối tuần đẹp trời. Mình dậy từ 5am để **tận hưởng** tiết trời mùa Xuân Sydney, vệ sinh cá nhân và ăn sáng. Sau đó sẽ tới thư viện để học & làm việc (Từ khi sang Úc, mình có thói quen là khi rảnh sẽ lên thư viện ở các Suburb khác nhau). Nay mình ngồi ở Five Dock Library (một thư viện mà mình yêu thích 😊).
 
 ![alt](https://hieulxswe.com/wp-content/uploads/2023/09/IMG_3691-1-1536x1152.png)
 
 Chia sẻ ngắn về bản thân vậy thôi, bây giờ chúng ta cùng đi vào chi tiết bài viết nhé! Let’s goooooo …
 
-Ở trong bài viết này, mình sẽ chia sẻ đôi chút kinh nghiệm cá nhân & tham khảo từ các nguồn về việc thiết kế & tối ưu hệ thống “phục vụ hàng triệu người dùng”.
+Ở trong bài viết này, mình sẽ chia sẻ đôi chút kinh nghiệm cá nhân & tham khảo từ các nguồn về việc thiết kế & tối ưu hệ thống **phục vụ hàng triệu người dùng**.
 
-Như chúng ta đã biết, việc thiết kế hệ thống để phục vụ hàng triệu người dùng là một thử thách khó & không có câu trả lời chính xác (nó giống như việc: “Dev tán gái”, “Phụ nữ đến tháng”, …. 🤣). Vì vậy, chúng ta cùng đọc – tìm hiểu & góp ý cho nhau nhé!
+Như chúng ta đã biết, việc thiết kế hệ thống để phục vụ hàng triệu người dùng là một thử thách khó & không có câu trả lời chính xác (nó giống như việc: **Dev tán gái**, **Phụ nữ đến tháng**, …. 🤣). Vì vậy, chúng ta cùng đọc – tìm hiểu & góp ý cho nhau nhé!
 
 ## Tại sao khó?
 Để thiết kế một hệ thống cho 5-10 người sử dụng thì vô cùng đơn giản. Tuy nhiên, khi scope lên hàng trăm, nghìn, trăm nghìn … thậm trí cả triệu người dùng thì lại là một bài toán lớn & vô cùng phức tạp.

@@ -14,4 +14,7 @@ It should be executed from inside root of Xcode project directory and called wit
 
 Script goes through all the files and directories recursively, including Xcode project or workspace file and replaces all occurrences of **$OLD_PROJECT_NAME** string with **$NEW_PROJECT_NAME** string (both in each file's name and content).
 
-[image](../assets/images/rename-xcode-prj.png)
+![alt](../assets/images/rename-xcode-prj.png)
+
+
+**Source**: [xcode-project-renamer](https://github.com/tadija/xcode-project-renamer)

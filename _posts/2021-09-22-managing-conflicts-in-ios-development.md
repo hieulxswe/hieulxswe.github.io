@@ -24,7 +24,7 @@ Version control is a fundamental tool for tracking changes in your iOS project. 
 ### Branching Strategy
 Implement a branching strategy that suits your team's workflow. Common strategies include feature branching, Git flow, or trunk-based development. This helps isolate changes and minimize conflicts.
 
-{% highlight c %}
+```sh
 	# Create a new feature branch
 	git checkout -b feature/new-feature
 
@@ -33,7 +33,7 @@ Implement a branching strategy that suits your team's workflow. Common strategie
 
 	# Push your changes to the remote repository
 	git push origin feature/new-feature
-{% endhighlight %}
+```
 
 ### Regular Commits
 Encourage team members to make frequent, smaller commits rather than large, infrequent ones. Regular commits make it easier to merge changes and resolve conflicts.

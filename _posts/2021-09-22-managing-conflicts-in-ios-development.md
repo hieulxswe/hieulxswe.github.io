@@ -7,6 +7,8 @@ permalink: /managing-conflicts-in-ios-development/
 categories: ios
 tags: [ios, conflictios, swift]
 ---
+![alt](../assets/images/managing-conflicts-in-ios.jpeg)
+
 Managing conflicts in iOS development is crucial for maintaining a productive and collaborative development process. Conflicts can arise from various sources, including code changes, project settings, or version control issues. In this guide, we will explore effective strategies and best practices for identifying, preventing, and resolving conflicts in your iOS projects.
 
 ## Clear Communication

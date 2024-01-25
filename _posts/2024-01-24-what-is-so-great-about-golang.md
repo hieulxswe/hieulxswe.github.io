@@ -6,6 +6,7 @@ layout: post
 permalink: /what-is-so-great-about-golang/
 categories: golang
 tags: [golang, go]
+image: ../assets/images/golang.png
 ---
 
 In the ever-evolving realm of programming languages, few have captured the hearts of developers quite like Go, or Golang. Its rise to prominence is attributed to a unique blend of simplicity, efficiency, and performance. In this article, we will delve into the key features that make Go exceptional, using illustrative code examples to demonstrate its prowess.

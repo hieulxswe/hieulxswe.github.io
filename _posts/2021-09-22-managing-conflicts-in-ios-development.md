@@ -6,6 +6,7 @@ layout: post
 permalink: /managing-conflicts-in-ios-development/
 categories: ios
 tags: [ios, conflictios, swift]
+image: ../assets/images/managing-conflicts-in-ios.jpeg
 ---
 ![alt](../assets/images/managing-conflicts-in-ios.jpeg)
 

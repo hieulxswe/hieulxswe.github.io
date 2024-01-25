@@ -6,6 +6,7 @@ layout: post
 permalink: /script-rename-xcode-project/
 categories: ios
 tags: [rename xcode project, rename xcode]
+image: ../assets/images/rename-xcode-prj.png
 ---
 
 Swift script for renaming Xcode project

@@ -16,8 +16,9 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'M PLUS 1 Code', monospace;
+  font-weight: 400;
   background: var(--body-bg);
   color: var(--primary-font-color);
   margin: 0;

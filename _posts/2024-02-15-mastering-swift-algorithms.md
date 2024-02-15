@@ -5,7 +5,7 @@ author: Hieu Xuan Leu
 layout: post
 permalink: /mastering-swift-algorithms/
 categories: ios
-tags: [ios, conflictios, swift]
+tags: [ios, algorithms, swift]
 image: ../assets/images/swift-algo.png
 ---
 ## Introduction

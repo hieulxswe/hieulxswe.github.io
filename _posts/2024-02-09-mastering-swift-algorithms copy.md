@@ -1,6 +1,6 @@
 ---
 title: "Mastering Swift Algorithms"
-date: 2024-02-15T00:00:00+00:00
+date: 2024-02-09T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post
 permalink: /mastering-swift-algorithms/
@@ -12,7 +12,7 @@ image: ../assets/images/swift-algo.png
 The Swift Algorithms library, unveiled alongside Swift 5.5, stands out as a versatile toolkit offering an extensive range of algorithms. In this comprehensive guide, we'll delve into the core algorithms provided by Swift Algorithms, providing detailed explanations and practical examples to showcase their functionality and usage.
 
 ## Understanding Swift Algorithms
-The Swift Algorithms library is a testament to Swift's commitment to providing developers with robust tools. It extends the standard library by offering a plethora of algorithms designed for various data structures. The library's mission is to simplify complex tasks, optimize performance, and promote clean, expressive code.
+The Swift Algorithms library is a testament to Swift commitment to providing developers with robust tools. It extends the standard library by offering a plethora of algorithms designed for various data structures. The library's mission is to simplify complex tasks, optimize performance, and promote clean, expressive code.
 
 ### Sorting Algorithms
 

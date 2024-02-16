@@ -3,11 +3,14 @@ title: "Timsort: A Versatile Sorting Algorithm in Swift"
 date: 2024-02-16T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post
-permalink: /**Timsort**-algorithm-in-swift/
+permalink: /timsort-algorithm-in-swift/
 categories: ios
 tags: [ios, swift, algorithms, Timsort]
 image: ../assets/images/timsort.png
 ---
+
+![alt](../assets/images/timsort.png)
+
 **Timsort** introduced in Swift 5, reigns as the default sorting algorithm for non-primitive arrays. This hybrid approach, blending Merge Sort and Insertion Sort, delivers optimal performance across various input sizes and distributions. This article dissects **Timsort**, exploring its intricate dance of efficiency and adaptation through detailed explanations, illustrative examples, and code snippets.
 
 **Timsort** a hybrid algorithm conceived by **Tim Peters**, excels at sorting diverse data structures in Swift. It leverages the strengths of two well-known algorithms:

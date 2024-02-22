@@ -1,6 +1,6 @@
 # Site settings
 site: Hieu Xuan Leu
-title: Hieu SWE | C-u-l8r 🧑🏻‍💻
+title: Hieu X. Leu
 keywords: hieulxswe, iosdev, developer
 description: >-
   Software Engineer
@@ -16,7 +16,7 @@ author:
   name: Xuan Hieu (Brian)
   bio: Software Engineer @X.X.X (based Sydney)
   picture: assets/images/profile.png
-  github: hieulxswe # github username
+  github: hieulxswe # github username 
   twitter:  # twitter username
   facebook:  hieulxswe # facebook username
   instagram:  # instagram username

@@ -11,12 +11,12 @@ image: ../assets/images/pprof_top.png
 
 Hiệu suất là một yếu tố quan trọng đối với bất kỳ ứng dụng nào, và Golang (Go) nổi tiếng với hiệu suất cao và khả năng xử lý đồng thời mạnh mẽ. Tuy nhiên, để tận dụng tối đa tiềm năng của Go, bạn cần hiểu và áp dụng các kỹ thuật profiling và benchmarking. Trong bài viết này, chúng ta sẽ khám phá cách sử dụng các công cụ này để tối ưu hóa hiệu suất ứng dụng Go của bạn.
 
-1. Giới thiệu Profiling và Benchmarking
+## Giới thiệu Profiling và Benchmarking
 Profiling là quá trình phân tích một ứng dụng để hiểu cách sử dụng tài nguyên của nó, như CPU, bộ nhớ, và I/O. Profiling giúp xác định các đoạn mã tiêu tốn nhiều tài nguyên, từ đó có thể tối ưu hóa chúng.
 
 Benchmarking là quá trình đo lường và so sánh hiệu suất của các đoạn mã hoặc toàn bộ ứng dụng. Benchmarking giúp bạn hiểu rõ tác động của các thay đổi trong mã nguồn lên hiệu suất.
 
-2. Profiling trong Golang
+## Profiling trong Golang
 Go cung cấp một số công cụ mạnh mẽ để profiling, trong đó nổi bật nhất là gói pprof.
 
 ### Sử dụng pprof
@@ -101,7 +101,7 @@ Ví dụ, bạn có thể thấy kết quả `top` như sau:
 Lệnh `web` tạo một biểu đồ trực quan về sử dụng tài nguyên:
 ![alt](../assets/images/pprof_web.png)
 
-4. Phân Tích Kết Quả Sâu Hơn: Lệnh `go tool pprof` cung cấp nhiều công cụ mạnh mẽ để phân tích chi tiết hơn. Bạn có thể sử dụng các lệnh sau để hiểu rõ hơn về cách ứng dụng của bạn sử dụng tài nguyên:
+## Phân Tích Kết Quả Sâu Hơn: Lệnh `go tool pprof` cung cấp nhiều công cụ mạnh mẽ để phân tích chi tiết hơn. Bạn có thể sử dụng các lệnh sau để hiểu rõ hơn về cách ứng dụng của bạn sử dụng tài nguyên:
 
 * top -cum: Hiển thị các hàm tiêu tốn nhiều tài nguyên nhất theo thứ tự cộng dồn.
 ![alt](../assets/images/top-cum.png)
@@ -110,7 +110,7 @@ Lệnh `web` tạo một biểu đồ trực quan về sử dụng tài nguyên:
 * text: Hiển thị báo cáo dưới dạng văn bản.
 ![alt](../assets/images/text.png)
 
-3. Benchmarking trong Golang: Go cung cấp gói `testing` để viết các benchmark tests. Một benchmark test là một hàm bắt đầu với `Benchmark` và chấp nhận một tham số `*testing.B`.
+## Benchmarking trong Golang: Go cung cấp gói `testing` để viết các benchmark tests. Một benchmark test là một hàm bắt đầu với `Benchmark` và chấp nhận một tham số `*testing.B`.
 
 ### Viết Benchmark Tests
 Dưới đây là một ví dụ về benchmark test cho hàm `fib`:
@@ -211,7 +211,7 @@ Sử dụng `benchstat` để so sánh kết quả:
 benchstat old.txt new.txt
 {% endhighlight %}
 
-4. Một Số Kỹ Thuật Tối Ưu Hóa Hiệu Suất
+## Một Số Kỹ Thuật Tối Ưu Hóa Hiệu Suất
 Dưới đây là một số kỹ thuật tối ưu hóa hiệu suất trong Go:
 
 ### Sử dụng Goroutine 
@@ -283,5 +283,5 @@ func main() {
 }
 {% endhighlight %}
 
-5. Kết Luận
+##  Kết Luận
 Profiling và benchmarking là các kỹ thuật quan trọng để tối ưu hóa hiệu suất ứng dụng Go. Bằng cách sử dụng các công cụ và kỹ thuật đã đề cập, bạn có thể cải thiện đáng kể hiệu suất và độ tin cậy của ứng dụng của mình. Hãy bắt đầu áp dụng chúng vào dự án của bạn ngay hôm nay!

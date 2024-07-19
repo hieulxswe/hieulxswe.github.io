@@ -39,7 +39,7 @@ func main() {
 }
 {% endhighlight %}
 
-* Bước 2: Ví dụ
+* Bước 2:
 Giả sử bạn có một ứng dụng Go đơn giản tính toán Fibonacci như sau:
 
 {% highlight c %}

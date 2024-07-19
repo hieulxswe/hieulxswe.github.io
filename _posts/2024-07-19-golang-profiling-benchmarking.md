@@ -25,7 +25,7 @@ Go cung cấp một số công cụ mạnh mẽ để profiling, trong đó nổ
 * Bước 1: Cài đặt `pprof`
 
 {% highlight c %}
-	import (
+import (
     _ "net/http/pprof"
     "log"
     "net/http"

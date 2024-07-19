@@ -43,7 +43,7 @@ func main() {
 Giả sử bạn có một ứng dụng Go đơn giản tính toán Fibonacci như sau:
 
 {% highlight c %}
-	package main
+package main
 
 import (
     "fmt"
@@ -101,7 +101,8 @@ Ví dụ, bạn có thể thấy kết quả `top` như sau:
 Lệnh `web` tạo một biểu đồ trực quan về sử dụng tài nguyên:
 ![alt](../assets/images/pprof_web.png)
 
-## Phân Tích Kết Quả Sâu Hơn: Lệnh `go tool pprof` cung cấp nhiều công cụ mạnh mẽ để phân tích chi tiết hơn. Bạn có thể sử dụng các lệnh sau để hiểu rõ hơn về cách ứng dụng của bạn sử dụng tài nguyên:
+### Phân tích kết quả sâu hơn
+Lệnh `go tool pprof` cung cấp nhiều công cụ mạnh mẽ để phân tích chi tiết hơn. Bạn có thể sử dụng các lệnh sau để hiểu rõ hơn về cách ứng dụng của bạn sử dụng tài nguyên:
 
 * top -cum: Hiển thị các hàm tiêu tốn nhiều tài nguyên nhất theo thứ tự cộng dồn.
 ![alt](../assets/images/top-cum.png)
@@ -110,7 +111,8 @@ Lệnh `web` tạo một biểu đồ trực quan về sử dụng tài nguyên:
 * text: Hiển thị báo cáo dưới dạng văn bản.
 ![alt](../assets/images/text.png)
 
-## Benchmarking trong Golang: Go cung cấp gói `testing` để viết các benchmark tests. Một benchmark test là một hàm bắt đầu với `Benchmark` và chấp nhận một tham số `*testing.B`.
+## Benchmarking trong Golang
+Go cung cấp gói `testing` để viết các benchmark tests. Một benchmark test là một hàm bắt đầu với `Benchmark` và chấp nhận một tham số `*testing.B`.
 
 ### Viết Benchmark Tests
 Dưới đây là một ví dụ về benchmark test cho hàm `fib`:

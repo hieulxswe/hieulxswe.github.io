@@ -6,7 +6,7 @@ layout: post
 permalink: /map-in-golang/
 categories: golang
 tags: [golang, map]
-image: ../assets/images/mapingo.png
+image: ../assets/images/map_in_go.png
 ---
 
 Map trong Golang là một cấu trúc dữ liệu rất mạnh mẽ và linh hoạt, cho phép lưu trữ các cặp `key-value` (khóa-giá trị). Nó rất hữu ích trong nhiều tình huống lập trình khi bạn cần tra cứu giá trị dựa trên khóa. Trong bài viết này, chúng ta sẽ tìm hiểu cách sử dụng map, những lợi ích và một số kỹ thuật tối ưu hóa hiệu suất khi làm việc với map trong Golang.

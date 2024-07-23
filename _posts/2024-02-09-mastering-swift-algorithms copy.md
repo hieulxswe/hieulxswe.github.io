@@ -1,5 +1,5 @@
 ---
-title: "Mastering Swift Algorithms"
+title: "[en] Mastering Swift Algorithms"
 date: 2024-02-09T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

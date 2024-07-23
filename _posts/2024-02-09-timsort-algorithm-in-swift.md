@@ -1,5 +1,5 @@
 ---
-title: "Timsort: A Versatile Sorting Algorithm in Swift"
+title: "[en] Timsort: A Versatile Sorting Algorithm in Swift"
 date: 2024-02-16T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

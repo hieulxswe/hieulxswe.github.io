@@ -1,5 +1,5 @@
 ---
-title: "Script rename Xcode Project"
+title: "[en] Script rename Xcode Project"
 date: 2023-10-22T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

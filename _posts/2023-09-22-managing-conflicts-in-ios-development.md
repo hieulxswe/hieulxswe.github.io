@@ -1,5 +1,5 @@
 ---
-title: "Managing Conflicts in iOS Development"
+title: "[en] Managing Conflicts in iOS Development"
 date: 2023-08-19T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: "Profiling & Benchmarking - Tối ưu hiệu suất trong Golang"
+title: "[vn] Profiling & Benchmarking - Tối ưu hiệu suất trong Golang"
 date: 2024-07-19T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

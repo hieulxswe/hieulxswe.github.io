@@ -1,5 +1,5 @@
 ---
-title: "Cách sử dụng Map trong Golang"
+title: "[vn] Cách sử dụng Map trong Golang"
 date: 2024-07-21T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

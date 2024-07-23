@@ -1,5 +1,5 @@
 ---
-title: "What's so great about Go?"
+title: "[en] What's so great about Go?"
 date: 2024-01-24T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

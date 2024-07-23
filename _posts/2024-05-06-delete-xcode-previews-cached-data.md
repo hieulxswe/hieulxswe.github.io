@@ -1,5 +1,5 @@
 ---
-title: "Delete Xcode Previews' cached data"
+title: "[en] Delete Xcode Previews' cached data"
 date: 2024-05-06T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

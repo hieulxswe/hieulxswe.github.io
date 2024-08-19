@@ -7,6 +7,7 @@ permalink: /golang-profiling-benchmarking/
 categories: golang
 tags: [golang, profiling, benchmarking]
 image: ../assets/images/pprof_top.png
+published: false
 ---
 
 Hiệu suất là một yếu tố quan trọng đối với bất kỳ ứng dụng nào, và Golang (Go) nổi tiếng với hiệu suất cao và khả năng xử lý đồng thời mạnh mẽ. Tuy nhiên, để tận dụng tối đa tiềm năng của Go, bạn cần hiểu và áp dụng các kỹ thuật profiling và benchmarking. Trong bài viết này, chúng ta sẽ khám phá cách sử dụng các công cụ này để tối ưu hóa hiệu suất ứng dụng Go của bạn.

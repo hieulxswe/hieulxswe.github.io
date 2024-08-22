@@ -17,7 +17,8 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Inconsolata", system-ui;
   font-weight: 300;
   background: var(--body-bg);
   color: var(--primary-font-color);

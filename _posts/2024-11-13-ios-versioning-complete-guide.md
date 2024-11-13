@@ -5,7 +5,7 @@ author: Hieu Xuan Leu
 layout: post
 permalink: /ios-versioning-complete-guide/
 categories: git
-tags: [git, git commands]
+tags: [ios version]
 # image: ../assets/images/map_in_go.png
 published: true
 ---

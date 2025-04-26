@@ -6,6 +6,7 @@ layout: post
 permalink: /fetching-data-firebase-and-ios/
 categories: ios
 tags: [fetching data, ios, firebase, swift, swiftui]
+image: ../assets/images/swiftandfirebase.png
 ---
 
 Trong thời đại số hóa hiện nay, việc phát triển ứng dụng di động đòi hỏi không chỉ giao diện đẹp mắt mà còn khả năng quản lý dữ liệu hiệu quả. Firebase của Google đã trở thành một trong những giải pháp backend phổ biến nhất cho các nhà phát triển iOS, cung cấp hàng loạt công cụ để xây dựng, quản lý và mở rộng ứng dụng. Tuy nhiên, việc tối ưu hóa cách ứng dụng iOS của bạn tương tác với Firebase có thể tạo ra sự khác biệt lớn về hiệu suất, trải nghiệm người dùng và chi phí vận hành.

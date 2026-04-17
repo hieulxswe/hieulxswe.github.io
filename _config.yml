@@ -14,8 +14,9 @@ discus-identifier:  XXX
 # Author settings
 author:
   name: Hieu Xuan Leu (Brian)
-  bio: Software Engineer @Algovent (based Sydney) <br> "My parents never asked when I’d get a job. They just believed." <br> /#swift /#golang <br> 🇻🇳 🇦🇺
-  picture: assets/images/hieuauDec25.jpg # path to your avatar
+  # bio: Software Engineer @xxxx (based Sydney) <br> "My parents never asked when I’d get a job. They just believed." <br> /#swift /#golang <br> 🇻🇳 🇦🇺
+  bio: Software Engineer @xxxx (based Sydney) <br>🇻🇳 🇦🇺
+  picture: assets/images/hieu_26.jpg # path to your avatar
   github: hieulxswe # github username 
   twitter:  # twitter username
   facebook:  hieulxswe # facebook username

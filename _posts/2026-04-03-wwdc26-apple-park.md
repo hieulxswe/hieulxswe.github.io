@@ -1,5 +1,5 @@
 ---
-title: "Mình đã được email mời tham dự WWDC26 tại Apple Park "
+title: "[vn] Mình đã được mời tham dự WWDC26 tại Apple Park "
 date: 2026-04-03T00:00:00+00:00
 author: Hieu Xuan Leu
 layout: post

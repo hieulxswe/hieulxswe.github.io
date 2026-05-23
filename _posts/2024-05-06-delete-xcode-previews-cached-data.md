@@ -7,6 +7,7 @@ permalink: /delete-xcode-previews-cached-data/
 categories: ios
 tags: [ios, xcode, xcode previews, xcode tips]
 image: ../assets/images/xcode-previews-cache.png
+published: true
 ---
 
 Xcode Tip💡

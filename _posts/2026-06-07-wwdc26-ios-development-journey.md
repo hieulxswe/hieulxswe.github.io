@@ -68,6 +68,6 @@ Hành trình iOS của mình vẫn tiếp tục.
 
 See you someday, Apple Park. 
 
-![WWDC26 wallet ticket](../assets/images/DSC02593.jpg)
+![WWDC26 Digital Ticket](../assets/images/DSC02593.JPG)
 
 #WWDC26 #iOS #Swift #SwiftUI #AppleDeveloper #SoftwareEngineer
